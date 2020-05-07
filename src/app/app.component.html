@@ -1,0 +1,9 @@
+<hello name="{{ name }}"></hello>
+<p>
+  Start editing to see some magic happen :)
+</p>
+
+
+<app-add-item (sendDataToParent)="pushToContactArr($event)"></app-add-item>
+
+<app-view-item [contactList]="contactArr"></app-view-item>
